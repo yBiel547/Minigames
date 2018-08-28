@@ -15,7 +15,6 @@ public class TPlayerCRUD implements ICRUD<TPlayer, UUID> {
      * Adiciona o jogador no banco de dados.
      *
      * @param object = recebe um objeto TPlayer
-     * @return {@link TPlayer}
      */
     @Override
     public void create(TPlayer object) {
@@ -61,7 +60,6 @@ public class TPlayerCRUD implements ICRUD<TPlayer, UUID> {
      * Atualiza o jogador no banco de dados.
      *
      * @param object = recebe um objeto TPlayer
-     * @return {@link TPlayer}
      */
     @Override
     public void update(TPlayer object) {
@@ -77,7 +75,6 @@ public class TPlayerCRUD implements ICRUD<TPlayer, UUID> {
      * Remove o jogador do banco de dados.
      *
      * @param object = recebe um jogador
-     * @return {@link TPlayer}
      */
     @Override
     public void delete(UUID object) {
