@@ -1,6 +1,6 @@
 name: ThePit
 version: ${project.version}
 main: br.com.cavalinhorx.thepit.ThePit
-authors: [CavalinhoRX]
+authors: [BucetaPELUDA]
 description: Minigame ThePit do MotoNetwork.
 website: https://twitter.com/CavalinhoRX
